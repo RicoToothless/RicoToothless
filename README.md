@@ -5,14 +5,14 @@ Hello, my name is Rico and love CICD pipeline, IaC and Kubernetes.
 If you pass here, why don't you play a little game? 😆
 
 This is an open chess tournament where ANYONE can play. That's the fun part.  
-It's your turn to play! Move a <!-- BEGIN TURN -->black<!-- END TURN --> piece.
+It's your turn to play! Move a <!-- BEGIN TURN -->white<!-- END TURN --> piece.
 
 <!-- BEGIN CHESS BOARD -->
 |   | A | B | C | D | E | F | G | H |   |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | **8** | <img src="img/black/rook.png" width=50px> | <img src="img/black/knight.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/black/queen.png" width=50px> | <img src="img/black/king.png" width=50px> | <img src="img/black/bishop.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/black/rook.png" width=50px> | **8** |
-| **7** | <img src="img/black/pawn.png" width=50px> | <img src="img/black/pawn.png" width=50px> | <img src="img/black/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/black/pawn.png" width=50px> | <img src="img/black/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/black/pawn.png" width=50px> | **7** |
-| **6** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/black/knight.png" width=50px> | <img src="img/black/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | **6** |
+| **7** | <img src="img/black/pawn.png" width=50px> | <img src="img/black/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/black/pawn.png" width=50px> | <img src="img/black/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/black/pawn.png" width=50px> | **7** |
+| **6** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/black/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/black/knight.png" width=50px> | <img src="img/black/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | **6** |
 | **5** | <img src="img/blank.png" width=50px> | <img src="img/white/bishop.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/white/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **5** |
 | **4** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **4** |
 | **3** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/white/knight.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/white/pawn.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **3** |
@@ -23,13 +23,19 @@ It's your turn to play! Move a <!-- BEGIN TURN -->black<!-- END TURN --> piece.
 
 **It's your turn to move! Choose one from the following table**
 <!-- BEGIN MOVES LIST -->
-**CHECK!** Choose your move wisely!
 |  FROM  | TO (Just click a link!) |
 | :----: | :---------------------- |
-| **B8** | [C6](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+B8+to+C6&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [D7](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+B8+to+D7&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
-| **C7** | [C6](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+C7+to+C6&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
-| **D8** | [D7](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+D8+to+D7&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
-| **F6** | [D7](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+F6+to+D7&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
+| **A1** | [B1](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+A1+to+B1&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
+| **A2** | [A3](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+A2+to+A3&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [A4](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+A2+to+A4&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
+| **B2** | [B3](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+B2+to+B3&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [B4](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+B2+to+B4&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
+| **B5** | [A4](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+B5+to+A4&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [A6](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+B5+to+A6&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [C4](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+B5+to+C4&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [C6](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+B5+to+C6&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [D3](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+B5+to+D3&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [E2](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+B5+to+E2&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [F1](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+B5+to+F1&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
+| **C3** | [A4](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+C3+to+A4&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [B1](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+C3+to+B1&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [D1](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+C3+to+D1&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [E2](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+C3+to+E2&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [E4](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+C3+to+E4&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
+| **D2** | [D3](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+D2+to+D3&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [D4](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+D2+to+D4&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
+| **D5** | [C6](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+D5+to+C6&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [D6](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+D5+to+D6&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
+| **E1** | [D1](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+E1+to+D1&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [E2](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+E1+to+E2&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [F1](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+E1+to+F1&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
+| **F3** | [F4](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+F3+to+F4&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
+| **G1** | [E2](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+G1+to+E2&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [H3](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+G1+to+H3&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
+| **H2** | [H3](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+H2+to+H3&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD), [H4](https://github.com/RicoToothless/RicoToothless/issues/new?title=Chess%3A+Move+H2+to+H4&body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD) |
 <!-- END MOVES LIST -->
 
 Having fun? Ask a friend to do the next move!
@@ -46,11 +52,11 @@ Have you spotted a bug? Something missing? Feel free to open an [issue](https://
 
 | Move | Author |
 | :--: | :----- |
+| `C7` to `C6` | [ @Dephilia](https://github.com/Dephilia) |
 | `F1` to `B5` | [ @TobTobXX](https://github.com/TobTobXX) |
 | `G7` to `G6` | [ @justincremer](https://github.com/justincremer) |
 | `G2` to `F3` | [ @dannypsnl](https://github.com/dannypsnl) |
 | `G4` to `F3` | [ @justincremer](https://github.com/justincremer) |
-| `B1` to `C3` | [ @jollyga](https://github.com/jollyga) |
 
 <!-- END LAST MOVES -->
 </details>
@@ -68,6 +74,7 @@ Have you spotted a bug? Something missing? Feel free to open an [issue](https://
 | 1 | [@jollyga](https://github.com/jollyga) |
 | 1 | [@dannypsnl](https://github.com/dannypsnl) |
 | 1 | [@TobTobXX](https://github.com/TobTobXX) |
+| 1 | [@Dephilia](https://github.com/Dephilia) |
 
 <!-- END TOP MOVES -->
 </details>
